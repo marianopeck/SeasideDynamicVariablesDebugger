@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSeasideDynamicVariablesDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSeasideDynamicVariablesDebugger",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
