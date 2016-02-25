@@ -1,0 +1,3 @@
+reseting
+reset
+	StoredDynamicVariables := nil

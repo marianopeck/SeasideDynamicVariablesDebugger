@@ -1,0 +1,3 @@
+dynamic variables
+storeDynamicVariable: aDynamicVariableClass
+	self storedDynamicVariables at: aDynamicVariableClass put: aDynamicVariableClass value

@@ -1,0 +1,14 @@
+{
+	"category" : "SeasideDynamicVariablesDebugger",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testSelector" ],
+	"name" : "WACurrentRequestDebuggingTest",
+	"pools" : [
+		 ],
+	"super" : "WAComponent",
+	"type" : "normal" }
