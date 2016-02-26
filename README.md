@@ -41,7 +41,6 @@ Once Seaside is installed, execute the following to install SeasideDynamicVariab
 Metacello new
     baseline: 'SeasideDynamicVariablesDebugger';
     repository: 'github://marianopeck/SeasideDynamicVariablesDebugger:master/repository';
-	  version: #stable;
     load.
 ```
 
