@@ -8,7 +8,6 @@ In short, this project provides a simple Seaside error handler which allows the 
 Table of Contents
 =================
 
-  * [SeasideDynamicVariablesDebugger](#seasidedynamicvariablesdebugger)
   * [Table of Contents](#table-of-contents)
     * [Installation](#installation)
     * [The Problem](#the-problem)
