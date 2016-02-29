@@ -46,6 +46,8 @@ Metacello new
 
 > SeasideDynamicVariablesDebugger was tested only in Pharo 4.0 and 5.0 and using Seaside 3.1
 
+> If you are running in Windows, depending on where is your Pharo image located, you may have a problem as the load will try to create files such as `...\github-cache\marianopeck\SeasideDynamicVariablesDebugger\master\marianopeck-SeasideDynamicVariablesDebugger-6302afe\repository\BaselineOfSeasideDynamicVariablesDebugger.package\BaselineOfSeasideDynamicVariablesDebugger.class\instance\baseline..st`. And that path might be larger than the maximum path allowed by Windows and hence the load ends with error. If this is the case try storing your Pharo image in a less deeper directory.
+
 
 ## The Problem
 If you are a Smalltalk developer, you probably enjoy your debugger quite a lot. Staying in the debugger feels so comfortable... until you need to debug a Seaside application. How many times did you try to do a do-it or inspect an expression and that failed with a `WACurrentRequestContext`?  Later, you find yourself doing an inspect of the session or any other related object and then immediately after the inspect, you put a halt. Who hasn't done this???
@@ -135,7 +137,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Thanks to [Max Leske](https://github.com/theseion) for helping me out with the design, code review and ideas
+* To [Max Leske](https://github.com/theseion) for helping me out with the design, code review and ideas.
+* To [Maximiliano Tabacman](https://github.com/mtabacman) for testing and reporting Windows installation issue. 
 
 
 ## Funding
